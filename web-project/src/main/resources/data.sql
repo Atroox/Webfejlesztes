@@ -1,0 +1,21 @@
+insert into CUSTOMER_MASTER
+values (1001, 'Pista');
+insert into CUSTOMER_MASTER
+values (1002, 'Janos');
+insert into CUSTOMER_MASTER
+values (1003, 'Elemer');
+insert into CUSTOMER_MASTER
+values (1004, 'Dezso');
+
+insert into PRODUCT_MASTER(PRODUCT_ID, PRODUCT_NAME, ORDER_AMOUNT, PRICE, CUSTOMER_ID)
+values (101, 'Apple', '2', '20', 1001);
+insert into PRODUCT_MASTER(PRODUCT_ID, PRODUCT_NAME, ORDER_AMOUNT, PRICE, CUSTOMER_ID)
+values (102, 'Pear', '1', '7', 1001);
+insert into PRODUCT_MASTER(PRODUCT_ID, PRODUCT_NAME, ORDER_AMOUNT, PRICE, CUSTOMER_ID)
+values (103, 'CPU', '1', '50000', 1002);
+insert into PRODUCT_MASTER(PRODUCT_ID, PRODUCT_NAME, ORDER_AMOUNT, PRICE, CUSTOMER_ID)
+values (104, 'GPU', '1', '75000', 1002);
+insert into PRODUCT_MASTER(PRODUCT_ID, PRODUCT_NAME, ORDER_AMOUNT, PRICE, CUSTOMER_ID)
+values (105, 'Vacum cleaner', '1', '35000', 1003);
+insert into PRODUCT_MASTER(PRODUCT_ID, PRODUCT_NAME, ORDER_AMOUNT, PRICE, CUSTOMER_ID)
+values (106, 'Break caliper', '4', '70000', 1004);
